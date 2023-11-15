@@ -4,6 +4,11 @@
         "ostream": "cpp",
         "iostream": "cpp",
         "xutility": "cpp",
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "istream": "cpp",
+        "ios": "cpp",
+        "xlocnum": "cpp",
+        "cmath": "cpp",
+        "cstdlib": "cpp"
     }
 }
