@@ -11,6 +11,9 @@ struct mPoints{
 };
 
 bool comp(mPoints a, mPoints b) {
+    if (a.start == b.start) {
+        return a.end > b.end;
+    }
     return a.start < b.start;
 }
 
@@ -19,8 +22,8 @@ int N, x, y;
 
 
 int main(void){
-    // freopen("mountains.in", "r", stdin);
-    // freopen("mountains.out", "w", stdout);
+    freopen("mountains.in", "r", stdin);
+    freopen("mountains.out", "w", stdout);
     cin >> N;
     for (int i = 0; i < N; i++) {
         cin >> x >> y;
